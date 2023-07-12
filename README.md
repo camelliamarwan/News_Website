@@ -43,6 +43,7 @@ Retrieve and display news articles.
    // fetch the news of your country
    window.addEventListener('load', () => fetchNews("YOUR_COUNTRY"));
 
+
    // Get and Display the latest news articles
    articles.forEach(article => {
       if(!article.urlToImage) return;
